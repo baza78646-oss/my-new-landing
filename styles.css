@@ -146,6 +146,19 @@ p {
     border-color: var(--color-border);
 }
 
+.real-img {
+    object-fit: cover;
+    border-radius: var(--border-radius);
+    border: none;
+    background: transparent;
+}
+
+.real-logo {
+    object-fit: contain;
+    border: none;
+    background: transparent;
+}
+
 .portrait-placeholder {
     height: 500px;
     width: 100%;
@@ -156,6 +169,16 @@ p {
     height: 80px;
     border-radius: 50%;
     margin: 0 auto 1.5rem auto;
+}
+
+.feature-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    color: var(--color-accent);
+    background-color: transparent;
+    border: none;
 }
 
 .square-placeholder {
